@@ -34,4 +34,12 @@ clothes = ["Jeans", "T-shirt", "Shirt", "Trousers", "Joggers"]
 
 # print(clothes.index("T-shirt")) # we can also get the index of the particular item in the list 
 
+#*** List comprehension- it's a concise and elegant way to create lists in python. It provides a shorthand for generating a new by apllying an expression to each item in an iterable, optionally including a condition
+# Syntax- [expression for item in iterable if condition] - assign this to a variable
+
+# let's create a list with the list comprehension technique
+even_num= [num for num in range(1,101) if num%2==0]
+
+print(even_num)
+
 print(clothes)
