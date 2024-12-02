@@ -1,4 +1,5 @@
 # in this we are going to learn about the management of the PyQt5 layouts
+# Note: There are more ways to manage the layouts in PyQt5 like, QGridLayout, QFormLayout, etc...but we will see them later
 
 import sys
 from PyQt5.QtWidgets import (

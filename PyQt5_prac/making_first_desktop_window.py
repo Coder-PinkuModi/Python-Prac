@@ -3,6 +3,13 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow
 
+#*****************************************************************************************************************************************
+# Though this part is not relevant in this particular program but this is the basic information every coder of PyQt5 needs to know
+# PyQt5.QWidgets -> this is the module that contains all the widgets that we need to create a window in PyQt5
+# PyQt5.QCore -> this is the module that contains all the core classes that we need to create a window in PyQt5 and does not need for GUI
+# PyQt5.QtGui -> this is the module that contains all the classes, methods and objects that we need for GUI interaction in PyQt5
+#*****************************************************************************************************************************************
+
 # step 1: let's create a class for the main window
 class MainWindow(QMainWindow):
     def __init__(self):
